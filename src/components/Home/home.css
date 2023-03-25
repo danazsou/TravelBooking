@@ -106,4 +106,9 @@
 }
 .home .homeContent .cardDiv .input input::placeholder {
   font-size: 13px;
+}
+.home .homeContent .cardDiv .input .icons {
+  font-size: 18px;
+  color: var(--PrimaryColor) !important;
+  margin-left: 10px;
 }/*# sourceMappingURL=home.css.map */

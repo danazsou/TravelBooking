@@ -2,6 +2,7 @@ import React from 'react'
 import'./home.css'
 import video from '../../Assets/plane-video.mp4'
 import{GrLocation} from 'react-icons/gr'
+import{HiFilter} from 'react-icons/hi'
 
 
 const Home = () => {
@@ -53,6 +54,10 @@ const Home = () => {
                     <input type="range" max="5000"
                     min="1000"/>
                   </div>
+                </div>
+
+                <div className="searchOptions flex">
+                  <HiFilter className="icon"/>
                 </div>
               </div>
          </div>
