@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--whiteColorDream);
+    background: var(--WhiteColorDream);
     width: 100%;
     padding: 1rem;
     z-index: 1000;
@@ -41,7 +41,7 @@
     @media screen and (max-width: 768px){
         .navBar{
             position: absolute;
-            background: var(--whiteColorDream);
+            background: var(--WhiteColorDream);
             height: max-content;
             width: 80%;
             border-radius: 1rem;
