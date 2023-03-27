@@ -4,6 +4,14 @@ import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {HiOutlineClipboardCheck} from 'react-icons/hi'
 
 import img from '../../Assets/img1.jpg'
+import img2 from '../../Assets/img2.jpg'
+import img3 from '../../Assets/img3.jpg'
+import img4 from '../../Assets/img4.jpg'
+import img5 from '../../Assets/img5.jpg'
+import img6 from '../../Assets/img6.jpg'
+import img7 from '../../Assets/img7.jpg'
+import img8 from '../../Assets/img8.jpg'
+import img9 from '../../Assets/img9.jpg'
 
 //using an array named Data
 
@@ -19,85 +27,85 @@ const Data = [
 
   },
 
-  // {
-  //   id: 2,
-  //   imgSrc: img2,
-  //   destTitle: 'Machu Picchu',
-  //   location: 'Peru',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$600',
-  //   description: 'Hyuana Picchu is a mountain in Peru, rising over Machu Picchu, the so-called Lost city of the Incas. This place is popular amomg tourists as the sunrise from the Sun Gate is spectacular.'
-  // },
+  {
+    id: 2,
+    imgSrc: img2,
+    destTitle: 'Machu Picchu',
+    location: 'Peru',
+    grade: 'CULTURAL RELAX',
+    fees: '$600',
+    description: 'Hyuana Picchu is a mountain in Peru, rising over Machu Picchu, the so-called Lost city of the Incas. This place is popular amomg tourists as the sunrise from the Sun Gate is spectacular.'
+  },
 
-  // {
-  //   id: 3,
-  //   imgSrc: img3,
-  //   destTitle: 'Great Barrier Reef',
-  //   location: 'Australia',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$700',
-  //   description: 'One of the most remarkable Australian natural gifts....'
-  // },
+  {
+    id: 3,
+    imgSrc: img3,
+    destTitle: 'Great Barrier Reef',
+    location: 'Australia',
+    grade: 'CULTURAL RELAX',
+    fees: '$700',
+    description: 'One of the most remarkable Australian natural gifts....'
+  },
 
-  // {
-  //   id: 4,
-  //   imgSrc: img4,
-  //   destTitle: 'Cappadocia',
-  //   location: 'Turkey',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$800',
-  //   description: 'Accoring to the world Toursim Ranking, 45 million people visit...'
-  // },
+  {
+    id: 4,
+    imgSrc: img4,
+    destTitle: 'Cappadocia',
+    location: 'Turkey',
+    grade: 'CULTURAL RELAX',
+    fees: '$800',
+    description: 'Accoring to the world Toursim Ranking, 45 million people visit...'
+  },
 
-  // {
-  //   id: 5,
-  //   imgSrc: img5,
-  //   destTitle: 'Guanajuato',
-  //   location: 'Mexico',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$1100',
-  //   description: 'A city in central Mexico, Guanajuato is known for its hisory of cultural silver mining...'
-  // },
+  {
+    id: 5,
+    imgSrc: img5,
+    destTitle: 'Guanajuato',
+    location: 'Mexico',
+    grade: 'CULTURAL RELAX',
+    fees: '$1100',
+    description: 'A city in central Mexico, Guanajuato is known for its hisory of cultural silver mining...'
+  },
 
-  // {
-  //   id: 6,
-  //   imgSrc: img6,
-  //   destTitle: 'Cinque Terre',
-  //   location: 'Italy',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$840',
-  //   description: 'The vibrant hues of the houses are its benchmark...'
-  // },
+  {
+    id: 6,
+    imgSrc: img6,
+    destTitle: 'Cinque Terre',
+    location: 'Italy',
+    grade: 'CULTURAL RELAX',
+    fees: '$840',
+    description: 'The vibrant hues of the houses are its benchmark...'
+  },
 
-  // {
-  //   id: 7,
-  //   imgSrc: img7,
-  //   destTitle: 'Ankor Wat',
-  //   location: 'Cambodia',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$790',
-  //   description: 'Ankor wat represents the entire range of the khmer art from...'
-  // },
+  {
+    id: 7,
+    imgSrc: img7,
+    destTitle: 'Ankor Wat',
+    location: 'Cambodia',
+    grade: 'CULTURAL RELAX',
+    fees: '$790',
+    description: 'Ankor wat represents the entire range of the khmer art from...'
+  },
 
-  // {
-  //   id: 8,
-  //   imgSrc: img8,
-  //   destTitle: 'Taj Majal',
-  //   location: 'India',
-  //   grade: 'CULTURal RELAX',
-  //   fees: '$900',
-  //   description: 'an immense mausuleum of white marble, built-in Agra by mighal...'
-  // },
+  {
+    id: 8,
+    imgSrc: img8,
+    destTitle: 'Taj Majal',
+    location: 'India',
+    grade: 'CULTURal RELAX',
+    fees: '$900',
+    description: 'an immense mausuleum of white marble, built-in Agra by mighal...'
+  },
 
-  // {
-  //   id: 9,
-  //   imgSrc: img9,
-  //   destTitle: 'Bali Island',
-  //   location: 'Indonesia',
-  //   grade: 'CULTURAL RELAX',
-  //   fees: '$500',
-  //   description: 'Bali is an Indonesian Island ....'
-  // },
+  {
+    id: 9,
+    imgSrc: img9,
+    destTitle: 'Bali Island',
+    location: 'Indonesia',
+    grade: 'CULTURAL RELAX',
+    fees: '$500',
+    description: 'Bali is an Indonesian Island ....'
+  },
 ]
 
 
