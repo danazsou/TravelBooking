@@ -2,6 +2,7 @@ import React from 'react'
 import'./footer.css'
 import video2 from '../../Assets/video2.mp4'
 import {FiSend} from 'react-icons/fi'
+import {MdOutlineTravelExplore} from 'react-icons/md'
 
 const Footer = () => {
   return (
@@ -22,6 +23,16 @@ const Footer = () => {
             <button className='btn flex' type='submit'>
               SEND <FiSend className="icon"/>
             </button>
+          </div>
+        </div>
+
+        <div className="footerCard flex">
+          <div className="footerIntro flex">
+            <div className="logoDiv">
+              <a href="#" className='logo flex'>
+                <MdOutlineTravelExplore/> Travel.
+              </a>
+            </div>
           </div>
         </div>
       </div>
