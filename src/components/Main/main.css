@@ -80,7 +80,7 @@
   gap: 0.5rem;
 }
 .main .secContent .singleDestination .cardInfo .contintent .icon {
-  color: var(--textColor);
+  color: red;
   font-size: 18px;
 }
 .main .secContent .singleDestination .cardInfo .contintent .name {
