@@ -76,15 +76,13 @@
   color: var(--blackColor);
   font-size: 1.25rem;
 }
-.main .secContent .singleDestination .cardInfo .contintent {
+.main .secContent .singleDestination .cardInfo .continent {
   gap: 0.5rem;
 }
-.main .secContent .singleDestination .cardInfo .contintent .icon {
-  color: red;
+.main .secContent .singleDestination .cardInfo .continent .icon {
   font-size: 18px;
 }
-.main .secContent .singleDestination .cardInfo .contintent .name {
-  color: red;
+.main .secContent .singleDestination .cardInfo .continent .name {
   font-weight: 400;
   font-size: 14px;
 }
