@@ -219,7 +219,7 @@
 
     @media screen and (min-width: 1240px) {
         .home{
-            height: 80vh;
+            height: 95vh;
         }
 
         .homeContent{
@@ -229,6 +229,19 @@
             .cardDiv{
                 padding: 2rem 1rem;
                 grid-template-columns: repeat(3,1fr);
+                .input{
+                    margin-bottom: 1rem;
+                }
+
+                .searchOptions{
+                    bottom: -1rem;
+                    padding: 8px 1rem;
+
+                    span{
+                        font-size: 17px;
+                    }
+
+                }
             }
         }
     }

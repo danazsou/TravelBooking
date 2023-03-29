@@ -189,7 +189,7 @@
 }
 @media screen and (min-width: 1240px) {
   .home {
-    height: 80vh;
+    height: 95vh;
   }
   .homeContent {
     padding-left: 0;
@@ -198,5 +198,15 @@
   .homeContent .cardDiv {
     padding: 2rem 1rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .homeContent .cardDiv .input {
+    margin-bottom: 1rem;
+  }
+  .homeContent .cardDiv .searchOptions {
+    bottom: -1rem;
+    padding: 8px 1rem;
+  }
+  .homeContent .cardDiv .searchOptions span {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=home.css.map */
