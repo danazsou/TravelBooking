@@ -1,3 +1,17 @@
+logo {
+  color: var(--blackColor);
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+}
+
+.logo {
+  color: var(--blackColor);
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+}
+
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
@@ -124,5 +138,15 @@
   .header .navBar .navLists .btn a {
     color: var(--whiteColor);
     font-weight: 500;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header .navbar .navLists .navItem {
+    padding: 0 0.7rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 1rem 8.5rem;
   }
 }/*# sourceMappingURL=navbar.css.map */

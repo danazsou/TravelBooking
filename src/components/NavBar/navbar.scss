@@ -1,3 +1,6 @@
+@import "logo";
+@import "icon";
+
 :root{
 --PrimaryColor: hsl(199, 100%, 33%);
 --SecondaryColor: hsl(187, 85%, 43%);
@@ -154,7 +157,7 @@
     }
 }
 
-@media screen and(min-width: 960px) {
+@media screen and (min-width: 960px) {
     .header{
         .navbar{
             .navLists{
@@ -166,7 +169,7 @@
     }
 }
 
-@media screen and(min-width: 1240px) {
+@media screen and (min-width: 1240px) {
     .header{
         padding: 1rem 8.5rem;
     }
