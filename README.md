@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+MERN Travel Booking Application
+This is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) that allows clients to book vacations with various price points. The application uses a built-in API to retrieve and store data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+User can sign up, login, and logout.
+User can view available vacation options with various price points.
+User can search for vacations based on a specific location, date range, and price point.
+User can book a vacation by selecting a vacation package, entering their details, and making a payment.
+User can view their booking history and upcoming trips.
+User can leave reviews for vacation packages they have booked.
+Admin can add, edit, and delete vacation packages.
+Admin can view all bookings and user information.
 
-## Available Scripts
 
-In the project directory, you can run:
+Technologies
+MongoDB: NoSQL database used to store vacation packages, bookings, and user information.
+Express.js: Backend framework used to handle HTTP requests and responses.
+React.js: Frontend library used to build user interfaces and components.
+Node.js: JavaScript runtime environment used to build the server-side of the application.
+Stripe: Payment processing API used for handling payments.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Getting Started
+Clone the repository.
+Install dependencies using npm install.
+Create a .env file with the following variables:
+MONGODB_URI: URI for connecting to MongoDB database.
+JWT_SECRET: Secret key for JSON Web Token authentication.
+STRIPE_SECRET_KEY: Secret key for Stripe API.
+Run the backend server using npm run server.
+Run the frontend server using npm run client.
+Navigate to http://localhost:3000 in your web browser to view the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future Improvements
+Add more advanced search filters such as amenities, activities, and distance from attractions.
+Allow users to save their favorite vacation packages for future reference.
+Allow users to cancel their bookings and receive a refund based on a cancellation policy.
